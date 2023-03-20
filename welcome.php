@@ -39,10 +39,10 @@ if (isset($_GET['logout'])) {
 
 <body>
     <div class="box">
-        <div style="float:left; width:50%;" align="center">
+        <div align="center">
             <img src="Images/Welcome.png" alt="Welcome" width="750px" height="auto">
         </div>
-        <div style="float:right; width:50%;" align="center">
+        <div align="center">
             <h2><marquee behavior="" direction="">= = = = = = = = = = = = = = =</marquee></h2>
             <h1>WELCOME,</h1>
             <h3><?php echo $_SESSION['user_name'] ?></h3>
