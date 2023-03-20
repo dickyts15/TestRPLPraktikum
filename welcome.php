@@ -43,10 +43,12 @@ if (isset($_GET['logout'])) {
             <img src="Images/Welcome.png" alt="Welcome" width="750px" height="auto">
         </div>
         <div style="float:right; width:50%;" align="center">
+            <h2><marquee behavior="" direction="">= = = = = = = = = = = = = = =</marquee></h2>
             <h1>WELCOME,</h1>
             <h3><?php echo $_SESSION['user_name'] ?></h3>
             <h1>Email Anda</h1>
             <h3><?php echo $_SESSION['user_email'] ?></h3>
+            <h2><marquee behavior="scroll" direction="">= = = = = = = = = = = = = = =</marquee></h2>
         </div>
     </div>
 </body>
